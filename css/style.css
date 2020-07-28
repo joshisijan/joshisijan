@@ -42,7 +42,7 @@ body{
 
 .sq-btn{
     padding: 10px 10px;
-    font-size: 30px;
+    font-size: 24px;
     border-radius: 0;
     background-color: var(--main-black);
     border: 1px solid var(--main-black);
@@ -128,7 +128,7 @@ body{
 }
 
 .footer .links{
-    margin: 50px;
+    margin: 15px;
     display: flex;
     justify-content: center;
 }
@@ -176,8 +176,8 @@ input::placeholder, textarea::placeholder{
 }
 
 .instagram-logo {
-    width: 36px;
-    height: 36px;
+    width: 24px;
+    height: 24px;
 }
 
 .instagram-logo circle{
@@ -210,11 +210,14 @@ input::placeholder, textarea::placeholder{
     }
 
     .instagram-logo{
-        height: 24px;
-        width: 24px;
+        height: 20px;
+        width: 20px;
     }
     .sq-btn{
         font-size: 24px;
+    }
+    .footer .links{
+	margin: 10px;
     }
 }
 
@@ -244,7 +247,7 @@ input::placeholder, textarea::placeholder{
     }
 
     .footer .links{
-        margin: 35px;
+        margin: 15px;
     }
 }
 
